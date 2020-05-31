@@ -1,6 +1,6 @@
 # yuma-git
 
-To use this you just do move the ```yuma.sh``` to /bin path.
+To use this all you have to do is just move the ```yuma.sh``` to /bin path.
 
 clone this repository with:
 ```
