@@ -1,14 +1,17 @@
-COMMAND="$1"
+FILES="$1"
 COMMIT_MESSAGE="$2"
 
-if [ "${#COMMAND}" -gt 0 ]; then
-	git add "$COMMAND"
-	if [ "${#COMMAND}" -gt 0 ]; then
+if [ "${#FILES}" -gt 0 ]; then
+	git add "$FILES"
+	if [ "${#FILES}" -gt 0 ]; then
 		git commit -m "update"
 	else
 		git commit -m "$COMMIT_MESSAGE"
 	fi
 		git push
 else
-	echo " missing parameter"
+	echo "A Simplified way to use git commands"
+	echo ""
+	echo "Usage: yuma <file_to_add> [commit_message]"
+	echo ""
 fi
