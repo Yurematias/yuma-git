@@ -9,7 +9,7 @@
 
 Clone this repository with:
 ```
-git clone https://github.com/Yurematias/yuma-git.git
+git clone https://github.com/yuredev/yuma-git.git
 ```
 To use this all you have to do is just move the ```yuma.sh``` to /bin path.
 
